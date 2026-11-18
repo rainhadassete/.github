@@ -1,0 +1,23 @@
+name: Bug
+description: Algo não funciona como esperado
+labels: ["bug"]
+body:
+  - type: textarea
+    id: o-que-acontece
+    attributes:
+      label: O que acontece
+      description: Descreva o problema e o que era esperado.
+    validations:
+      required: true
+  - type: textarea
+    id: como-reproduzir
+    attributes:
+      label: Como reproduzir
+      placeholder: "1. ...\n2. ...\n3. ..."
+    validations:
+      required: true
+  - type: textarea
+    id: evidencias
+    attributes:
+      label: Evidências
+      description: Prints, logs ou mensagens de erro (sem dados sensíveis).
